@@ -1,0 +1,20 @@
+weights: Caminho para os pesos do modelo (ex.: "yolov8x.pt").
+device: Especifica o dispositivo a ser usado (ex.: "cpu" ou "cuda:0").
+
+img_size: Tamanho da imagem de entrada (ex.: 640, 1280).
+conf: Limite de confiança para as detecções (0.25 por padrão).
+max_det: Número máximo de detecções por imagem (ex.: 300).
+
+classes: Lista de classes a serem detectadas (ex.: [0, 1, 2]).
+
+
+save: Se True, salva as detecções em arquivos.
+show: Se True, mostra as imagens com as detecções.
+save_txt: Se True, salva as detecções em formato TXT.
+save_conf: Se True, salva a confiança nas detecções.
+
+
+visualize: Se True, exibe visualizações de camadas internas.
+
+line_thickness: Espessura das linhas de bounding box.
+class_names: Nomes das classes a serem usadas nas visualizações.
