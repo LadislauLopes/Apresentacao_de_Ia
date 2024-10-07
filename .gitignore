@@ -1,5 +1,4 @@
 /venv/
 *.pt
 .env
-*.jpg
 /mascarilla_con_sin_incorrecta-10/
